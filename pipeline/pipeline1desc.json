@@ -1,9 +1,10 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline1desc",
 	"properties": {
 		"activities": [
 			{
 				"name": "dataflow1",
+				"description": "Update",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
